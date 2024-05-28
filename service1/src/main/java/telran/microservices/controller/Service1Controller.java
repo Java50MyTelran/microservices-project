@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("service1")
 public class Service1Controller {
-	@GetMapping()
+@GetMapping()
 	String greetings() {
-		//TODO
-		return null;
+		
+		return "greetings from service1";
 	}
 }

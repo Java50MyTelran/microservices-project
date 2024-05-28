@@ -13,7 +13,7 @@ class Service1Test {
 Service1Controller service1Controller;
 	@Test
 	void test() {
-		//TODO
+		assertNotNull(service1Controller);
 	}
 
 }
