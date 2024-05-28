@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Service2Controller {
 	@GetMapping()
 	String greetings() {
-		//TODO
-		return null;
+		
+		return "greetings from service2";
 	}
 }
